@@ -23,7 +23,7 @@ struct Order{
 
 struct OrderResult{
     1:i32 totalCount,
-    2:map<string,string> result,
+    2:list<Order> result,
 }
 
 service OrderService{

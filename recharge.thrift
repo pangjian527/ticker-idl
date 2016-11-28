@@ -5,7 +5,7 @@ include "common/rpc_security.thrift"
 
 struct SearchResult{
     1:i32 totalCount,
-    2:list<Recharge>,
+    2:list<Recharge> result,
 }
 
 struct Recharge{

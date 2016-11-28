@@ -6,7 +6,7 @@ include "common/rpc_security.thrift"
 
 struct SearchResult{
     1:i32 totalCount,
-    2:list<LotteryData>,
+    2:list<LotteryData> result,
 }
 
 struct LotteryData{

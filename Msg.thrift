@@ -11,7 +11,7 @@ enum MSG_STATUS{
 
 struct SearchResult{
     1:i32 totalCount,
-    2:list<Msg>,
+    2:list<Msg> result,
 }
 
 struct Msg{
@@ -24,7 +24,7 @@ struct Msg{
 
 service MsgService{
 	
-	void sendMsg(1:rpc_security.ServiceToken accessToken,2:string mobile,3:string content) throws (1:rpc_error.RpcException err);
+	void sendMsg(1:rpc_security.ServiceToken accessToken,2:Msg msg) throws (1:rpc_error.RpcException err);
 
 	list<Msg> search(1:rpc_security.ServiceToken accessToken,2:string mobile) throws (1:rpc_error.RpcException err);
 

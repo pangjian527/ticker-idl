@@ -22,7 +22,7 @@ struct Consumer{
 
 struct SearchResult{
     1:i32 totalCount,
-    2:list<Consumer>,
+    2:list<Consumer> result,
 }
 
 service ConsumerService{
