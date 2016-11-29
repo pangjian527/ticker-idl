@@ -14,10 +14,10 @@ struct BaseData{
 
 service BaseDataService{
 
-	void save(1:rpc_security.ServiceToken accessToken,2:BaseData baseData) throws (1:rpc_error.RpcException err);
+	void saveBaseData(1:rpc_security.ServiceToken accessToken,2:BaseData baseData) throws (1:rpc_error.RpcException err);
 
 	/*根据年份获取到所有的配置*/
-    list<BaseData> search(1:rpc_security.ServiceToken accessToken,2:i32 year) throws (1:rpc_error.RpcException err);
+    list<BaseData> searchBaseData(1:rpc_security.ServiceToken accessToken,2:i32 year) throws (1:rpc_error.RpcException err);
 
 	
 }

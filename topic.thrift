@@ -27,33 +27,18 @@ struct Topic{
     11:string id,
 }
 
-
-struct Reply{
-    1:string id,
-    2:string content,
-    3:string userId,
-    4:i64 createTime
-}
-
 struct SearchTopicResult{
     1:i32 totalCount,
     2:list<Topic> result,
-}
-
-struct SearchReplyResult{
-    1:i32 totalCount,
-    2:list<Reply> result,
 }
 
 
 service TopicService{
 
     /*发帖*/
-    void save(1:rpc_security.ServiceToken accessToken,2:Topic topic)  throws (1:rpc_error.RpcException err);
+    void saveTopic(1:rpc_security.ServiceToken accessToken,2:Topic topic)  throws (1:rpc_error.RpcException err);
 
     /*获取主贴*/
-    SearchTopicResult search(1:rpc_security.ServiceToken accessToken,2:i32 limit,3:i32 offset,4:TOPIC_STATUS status)throws (1:rpc_error.RpcException err);
+    SearchTopicResult searchTopic(1:rpc_security.ServiceToken accessToken,2:i32 limit,3:i32 offset,4:TOPIC_STATUS status)throws (1:rpc_error.RpcException err);
 
-    /*根据主贴获取跟帖*/
-    SearchReplyResult searchReplyByTopicId(1:rpc_security.ServiceToken accessToken,2:i32 limit,3:i32 offset,4:string topicId)throws (1:rpc_error.RpcException err);
 }

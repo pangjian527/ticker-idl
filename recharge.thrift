@@ -20,8 +20,8 @@ struct Recharge{
 service RechargeService{
 
     /*充值*/
-    void save(1:rpc_security.ServiceToken accessToken,2:Recharge Recharge) throws (1:rpc_error.RpcException err);
+    void saveRecharge(1:rpc_security.ServiceToken accessToken,2:Recharge Recharge) throws (1:rpc_error.RpcException err);
 
     /*获取充值记录*/
-    SearchResult search(1:rpc_security.ServiceToken accessToken,2:i32 limit,3:i32 offset,4:string userId) throws (1:rpc_error.RpcException err);
+    SearchResult searchRecharge(1:rpc_security.ServiceToken accessToken,2:i32 limit,3:i32 offset,4:string userId) throws (1:rpc_error.RpcException err);
 }

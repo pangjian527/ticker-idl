@@ -26,6 +26,6 @@ service MsgService{
 	
 	void sendMsg(1:rpc_security.ServiceToken accessToken,2:Msg msg) throws (1:rpc_error.RpcException err);
 
-	list<Msg> search(1:rpc_security.ServiceToken accessToken,2:string mobile) throws (1:rpc_error.RpcException err);
+	list<Msg> searchMsg(1:rpc_security.ServiceToken accessToken,2:string mobile) throws (1:rpc_error.RpcException err);
 
 }

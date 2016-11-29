@@ -22,8 +22,8 @@ struct LotteryData{
 service LotteryDataService{
 	
 	/*根据年份分页获取开奖数据*/
-	SearchResult search(1:rpc_security.ServiceToken accessToken,2:i32 year,3:i32 limit,4:i32 offset) throws (1:rpc_error.RpcException err);
+	SearchResult searchLotteryData(1:rpc_security.ServiceToken accessToken,2:i32 year,3:i32 limit,4:i32 offset) throws (1:rpc_error.RpcException err);
 
 	/*开奖保存*/
-	void save(1:rpc_security.ServiceToken accessToken,2:LotteryData lotteryData) throws (1:rpc_error.RpcException err);
+	void saveLotteryData(1:rpc_security.ServiceToken accessToken,2:LotteryData lotteryData) throws (1:rpc_error.RpcException err);
 }

@@ -28,11 +28,11 @@ struct OrderResult{
 
 service OrderService{
 
-    void save(1:rpc_security.ServiceToken accessToken,2:Order order) throws (1:rpc_error.RpcException err);
+    void saveOrder(1:rpc_security.ServiceToken accessToken,2:Order order) throws (1:rpc_error.RpcException err);
 
-    OrderResult search(1:rpc_security.ServiceToken accessToken,2:i32 limit,3:i32 offset)throws (1:rpc_error.RpcException err);
+    OrderResult searchOrder(1:rpc_security.ServiceToken accessToken,2:i32 limit,3:i32 offset)throws (1:rpc_error.RpcException err);
 
-    OrderResult searchByUserId(1:rpc_security.ServiceToken accessToken,2:i32 limit,3:i32 offset,4:string userId)throws (1:rpc_error.RpcException err);
+    OrderResult searchOrderByUserId(1:rpc_security.ServiceToken accessToken,2:i32 limit,3:i32 offset,4:string userId)throws (1:rpc_error.RpcException err);
 
 
 }
