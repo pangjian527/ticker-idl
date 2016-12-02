@@ -34,4 +34,6 @@ service ConsumerService{
 
 	SearchResult searchConsumer(1:rpc_security.ServiceToken accessToken,2:i32 limit,3:i32 offset) throws (1:rpc_error.RpcException err);
 
+	
+
 }
