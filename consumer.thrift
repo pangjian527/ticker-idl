@@ -30,10 +30,13 @@ service ConsumerService{
 	/*根据ID获取用户*/
 	Consumer getByMobile(1:rpc_security.ServiceToken serviceToken,2:string mobile) throws (1:rpc_error.RpcException err);
 
+	Consumer getById(1:rpc_security.ServiceToken serviceToken,2:string id) throws (1:rpc_error.RpcException err);
+
+
 	void saveConsumer(1:rpc_security.ServiceToken serviceToken,2:Consumer consumer) throws (1:rpc_error.RpcException err);
 
 	SearchResult searchConsumer(1:rpc_security.ServiceToken accessToken,2:i32 limit,3:i32 offset) throws (1:rpc_error.RpcException err);
 
-	
+
 
 }
