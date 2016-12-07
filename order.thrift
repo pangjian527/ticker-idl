@@ -14,7 +14,7 @@ struct Order{
     1:string id,
     2:i64 amount,
     3:string userId,
-    4:string topicId,
+    4:string productId,
     5:ORDER_STATUS status,
     6:i32 year,
     7:i32 stage,

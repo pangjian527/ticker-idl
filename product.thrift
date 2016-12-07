@@ -1,4 +1,4 @@
-namespace java com.tl.rpc.recharge
+namespace java com.tl.rpc.product
 
 include "common/rpc_error.thrift"
 include "common/rpc_security.thrift"
@@ -21,7 +21,9 @@ struct Product{
     5:i32 year,
     6:i32 stage,
     7:i64 updateTime,
-    8:PRODUCT_STATUS status
+    8:PRODUCT_STATUS status,
+    9:string title,
+    10:string mobile
 }
 
 service ProductService{
