@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e749db9-748f-4754-a3e1-ff7de51eb6ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consumer.thrift" afterPath="$PROJECT_DIR$/consumer.thrift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/topic.thrift" afterPath="$PROJECT_DIR$/topic.thrift" />
     </list>
     <ignored path="idl.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topic.thrift" pinned="false" current-in-tab="false">
+      <file leaf-file-name="topic.thrift" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/topic.thrift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="984">
-              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+            <state relative-caret-position="672">
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -94,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="consumer.thrift" pinned="false" current-in-tab="true">
+      <file leaf-file-name="consumer.thrift" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer.thrift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="32" column="73" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
+            <state relative-caret-position="301">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -117,8 +117,8 @@
       <file leaf-file-name="recharge.thrift" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recharge.thrift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+            <state relative-caret-position="336">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -141,13 +141,13 @@
         <option value="$PROJECT_DIR$/common.thrift" />
         <option value="$PROJECT_DIR$/sysuser.thrift" />
         <option value="$PROJECT_DIR$/reply.thrift" />
-        <option value="$PROJECT_DIR$/topic.thrift" />
         <option value="$PROJECT_DIR$/recharge.thrift" />
         <option value="$PROJECT_DIR$/order.thrift" />
         <option value="$PROJECT_DIR$/Msg.thrift" />
         <option value="$PROJECT_DIR$/lottery_data.thrift" />
         <option value="$PROJECT_DIR$/base_data.thrift" />
         <option value="$PROJECT_DIR$/consumer.thrift" />
+        <option value="$PROJECT_DIR$/topic.thrift" />
       </list>
     </option>
   </component>
@@ -839,14 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/topic.thrift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="984">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sysuser.thrift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -859,14 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
           <caret line="29" column="42" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recharge.thrift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -905,8 +889,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer.thrift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="32" column="73" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
+        <state relative-caret-position="301">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recharge.thrift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topic.thrift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
           <folding />
         </state>
       </provider>

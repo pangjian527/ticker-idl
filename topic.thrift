@@ -25,6 +25,8 @@ struct Topic{
     9:i32 stage,
     10:i64 createTime,
     11:string id,
+    12:i64 balance,
+    13:string expect
 }
 
 struct SearchTopicResult{
