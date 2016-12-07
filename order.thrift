@@ -19,6 +19,7 @@ struct Order{
     6:i32 year,
     7:i32 stage,
     8:string result,//是否中奖
+    9:i64 createTime,
 }
 
 struct OrderResult{
