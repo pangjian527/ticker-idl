@@ -23,7 +23,8 @@ struct Product{
     7:i64 updateTime,
     8:PRODUCT_STATUS status,
     9:string title,
-    10:string mobile
+    10:string mobile,
+    11:i32 virtualCount
 }
 
 service ProductService{
