@@ -24,7 +24,8 @@ struct Product{
     8:PRODUCT_STATUS status,
     9:string title,
     10:string mobile,
-    11:i32 virtualCount
+    11:i32 virtualCount,
+    12:i64 lotteryTime
 }
 
 service ProductService{
