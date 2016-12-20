@@ -10,6 +10,7 @@ struct BaseData{
 	4:i32 year,
 	5:string zodiacCode,//生肖编码
 	6:string colorCode,
+	7:i64 lotteryDate,
 }
 
 service BaseDataService{
