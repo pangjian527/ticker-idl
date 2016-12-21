@@ -17,6 +17,7 @@ struct LotteryData{
 	5:i32 number,
 	6:i64 createTime,
 	7:i64 updateTime,
+	8:i64 lotteryTime
 }
 
 service LotteryDataService{
