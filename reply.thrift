@@ -14,6 +14,7 @@ struct Reply{
     3:string userId,
     4:i64 createTime
     5:REPLY_STATUS status
+    6:string topicId
 }
 
 struct SearchReplyResult{
