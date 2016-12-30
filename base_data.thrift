@@ -19,6 +19,6 @@ service BaseDataService{
 	/*根据年份获取到所有的配置*/
     list<BaseData> searchBaseData(1:rpc_security.ServiceToken accessToken,2:i32 year) throws (1:rpc_error.RpcException err);
 
-    BaseData getBaseDataById(1:rpc_security.ServiceToken accessToken,2:string id) throws (1:rpc_error.RpcException err);
+    BaseData getBaseDataByNumber(1:rpc_security.ServiceToken accessToken,2:i32 number,3:i32 year) throws (1:rpc_error.RpcException err);
 	
 }

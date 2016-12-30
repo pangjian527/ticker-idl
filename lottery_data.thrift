@@ -11,13 +11,18 @@ struct SearchResult{
 
 struct LotteryData{
 	1:string id,
-	2:string baseDataId,
 	3:i32 stage,
 	4:i32 year,
 	5:i32 number,
 	6:i64 createTime,
 	7:i64 updateTime,
-	8:i64 lotteryTime
+	8:i64 lotteryTime,
+	9:i32 flatNumber1,
+	10:i32 flatNumber2,
+	11:i32 flatNumber3,
+	12:i32 flatNumber4,
+	13:i32 flatNumber5,
+	14:i32 flatNumber6,
 }
 
 service LotteryDataService{
