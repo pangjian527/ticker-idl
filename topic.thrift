@@ -26,7 +26,8 @@ struct Topic{
     10:i64 createTime,
     11:string id,
     12:i64 balance,
-    13:string expect
+    13:string expect,
+    14:i64 updateTime
 }
 
 struct SearchTopicResult{

@@ -25,7 +25,8 @@ struct Product{
     9:string title,
     10:string mobile,
     11:i32 virtualCount,
-    13:string probability
+    13:string probability,
+    14:i32 limitCount
 }
 
 service ProductService{
