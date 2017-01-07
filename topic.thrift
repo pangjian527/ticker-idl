@@ -42,7 +42,7 @@ service TopicService{
     void saveTopic(1:rpc_security.ServiceToken accessToken,2:Topic topic)  throws (1:rpc_error.RpcException err);
 
     /*获取主贴*/
-    SearchTopicResult searchTopic(1:rpc_security.ServiceToken accessToken,2:i32 limit,3:i32 offset,4:TOPIC_STATUS status)throws (1:rpc_error.RpcException err);
+    SearchTopicResult searchTopic(1:rpc_security.ServiceToken accessToken,2:i32 limit,3:i32 offset,4:TOPIC_STATUS status,5:string mobile)throws (1:rpc_error.RpcException err);
 
     Topic getByTopicId(1:rpc_security.ServiceToken accessToken,2:string topicId)  throws (1:rpc_error.RpcException err);
 
