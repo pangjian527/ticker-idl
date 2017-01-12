@@ -36,7 +36,8 @@ service ProductService{
     /*查询*/
     SearchProductResult searchProduct(1:rpc_security.ServiceToken accessToken,2:i32 limit,3:i32 offset)throws (1:rpc_error.RpcException err);
 
-    Product getByProductId(1:rpc_security.ServiceToken accessToken,2:string productId)  throws (1:rpc_error.RpcException err);
+    Product getByProductId(1:rpc_security.ServiceToken accessToken,2:string productId) throws (1:rpc_error.RpcException err);
 
+    list<Product> getProductByYearAndStage(1:rpc_security.ServiceToken accessToken,2:i32 year,3:i32 stage) throws (1:rpc_error.RpcException err);
 
 }
