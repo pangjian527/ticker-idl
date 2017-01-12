@@ -37,4 +37,5 @@ service OrderService{
 
     i32 totalCountByProductId(1:rpc_security.ServiceToken accessToken,2:string productId) throws (1:rpc_error.RpcException err);
 
+    Order getOrderByProductId(1:rpc_security.ServiceToken accessToken,2:string productId) throws (1:rpc_error.RpcException err);
 }
