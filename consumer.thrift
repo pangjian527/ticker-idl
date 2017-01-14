@@ -35,7 +35,7 @@ service ConsumerService{
 
 	void saveConsumer(1:rpc_security.ServiceToken serviceToken,2:Consumer consumer) throws (1:rpc_error.RpcException err);
 
-	SearchResult searchConsumer(1:rpc_security.ServiceToken accessToken,2:i32 limit,3:i32 offset) throws (1:rpc_error.RpcException err);
+	SearchResult searchConsumer(1:rpc_security.ServiceToken accessToken,2:i32 limit,3:i32 offset,4:string mobile) throws (1:rpc_error.RpcException err);
 
 
 

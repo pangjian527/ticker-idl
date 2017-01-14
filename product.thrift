@@ -11,6 +11,7 @@ struct SearchProductResult{
 enum PRODUCT_STATUS{
     SALE=0,
     OPEN=1,
+    REFUND=2  // 退款
 }
 
 struct Product{
