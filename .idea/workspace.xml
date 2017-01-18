@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e749db9-748f-4754-a3e1-ff7de51eb6ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consumer.thrift" afterPath="$PROJECT_DIR$/consumer.thrift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product.thrift" afterPath="$PROJECT_DIR$/product.thrift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="idl.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -475,7 +474,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="24" width="1855" height="1056" extended-state="0" />
+    <frame x="1985" y="24" width="1855" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
